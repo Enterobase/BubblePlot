@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nested HC500 → HC100 Drug Resistance</title>
+  <script src="d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background: #fafafa;
+    }
+
+    #chart {
+      flex: 1;
+      position: relative;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    path {
+      stroke: none;
+      cursor: pointer;
+    }
+
+    #legend {
+      width: 260px;
+      height: 100vh;
+      overflow-y: auto;
+      background: white;
+      border-left: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 6px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 1.4;
+      max-width: 260px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chart">
+  <svg width="1000" height="1000"></svg>
+  <div class="tooltip" style="opacity:0"></div>
+</div>
+
+<div id="legend">
+  <h3>Drug</h3>
+  <div id="legend-items"></div>
+</div>
+
+<script>
+const width = 1000;
+const height = 1000;
+
+const svg = d3.select("svg");
+const tooltip = d3.select(".tooltip");
+
+/* Packs */
+const packHC500 = d3.pack()
+  .size([width, height])
+  .padding(8);
+
+const packHC100 = d3.pack()
+  .padding(4);
+
+/* Pie helpers */
+const pie = d3.pie()
+  .value(d => d.value)
+  .padAngle(0.01);
+
+const arc = d3.arc();
+
+/* Load data */
+d3.json("hc500_hc100_drug_pie.json").then(data => {
+
+  const root = d3.hierarchy(data)
+    .sum(d => d.value || 1);
+
+  packHC500(root);
+
+  /* HC500 groups */
+  const hc500Groups = svg.selectAll("g.hc500")
+    .data(root.children)
+    .enter()
+    .append("g")
+    .attr("class", "hc500")
+    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+  /* HC500 outer borders */
+  hc500Groups.append("circle")
+    .attr("r", d => d.r)
+    .attr("fill", "none")
+    .attr("stroke", "#666")
+    .attr("stroke-width", 1.2)
+    .on("mousemove", (event, d) => {
+      tooltip
+        .style("opacity", 1)
+        .html(`
+          <b>${d.data.name}</b><br/>
+          Total isolates: ${d.value.toLocaleString()}
+        `)
+        .style("left", (event.pageX + 12) + "px")
+        .style("top", (event.pageY + 12) + "px");
+    })
+    .on("mouseleave", () => tooltip.style("opacity", 0));
+
+  /* Collect drugs */
+  const drugSet = new Set();
+  root.children.forEach(hc500 => {
+    hc500.children.forEach(hc100 => {
+      (hc100.children || []).forEach(drug => {
+        drugSet.add(drug.data.name);
+      });
+    });
+  });
+
+  const drugs = Array.from(drugSet).sort();
+  const color = d3.scaleOrdinal()
+    .domain(drugs)
+    .range(
+      d3.schemeTableau10
+        .concat(d3.schemeSet3)
+        .concat(d3.schemePaired)
+    );
+
+  /* HC100 layout */
+  hc500Groups.each(function(hc500) {
+    const g500 = d3.select(this);
+
+    const hc100Root = d3.hierarchy({
+      children: hc500.children.map(d => d.data)
+    }).sum(d => d.value || 1);
+
+    packHC100
+      .size([hc500.r * 2, hc500.r * 2])(hc100Root);
+
+    const hc100Groups = g500.selectAll("g.hc100")
+      .data(hc100Root.children)
+      .enter()
+      .append("g")
+      .attr("class", "hc100")
+      .attr("transform", d =>
+        `translate(${d.x - hc500.r}, ${d.y - hc500.r})`
+      );
+
+    hc100Groups.each(function(hc100) {
+      const g100 = d3.select(this);
+
+      if (!hc100.children || hc100.children.length === 0) {
+        g100.append("circle")
+          .attr("r", hc100.r)
+          .attr("fill", "#eee");
+        return;
+      }
+
+      arc.innerRadius(0).outerRadius(hc100.r);
+
+      g100.selectAll("path")
+        .data(pie(hc100.children.map(d => d.data)))
+        .enter()
+        .append("path")
+        .attr("d", arc)
+        .attr("fill", d => color(d.data.name))
+        .on("mousemove", function(event, d) {
+          d3.select(this).attr("opacity", 0.8);
+
+          const pct = (100 * d.data.value / hc100.value).toFixed(1);
+
+          tooltip
+            .style("opacity", 1)
+            .html(`
+              <b>${hc500.data.name}</b><br/>
+              HC100_${hc100.data.hc100}<br/>
+              Drug: <b>${d.data.name}</b><br/>
+              Resistant: ${d.data.value}<br/>
+              ${pct}% of HC100
+            `)
+            .style("left", (event.pageX + 12) + "px")
+            .style("top", (event.pageY + 12) + "px");
+        })
+        .on("mouseleave", function() {
+          d3.select(this).attr("opacity", 1);
+          tooltip.style("opacity", 0);
+        });
+    });
+  });
+
+  /* Legend */
+  const legend = d3.select("#legend-items");
+
+  legend.selectAll(".legend-item")
+    .data(drugs)
+    .enter()
+    .append("div")
+    .attr("class", "legend-item")
+    .each(function(d) {
+      const row = d3.select(this);
+      row.append("div")
+        .attr("class", "legend-color")
+        .style("background", color(d));
+      row.append("div").text(d);
+    });
+});
+</script>
+
+</body>
+</html>
