@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HC500 → HC100 Bubble Plot</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background: #fafafa;
+    }
+
+    #chart {
+      flex: 1;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    #legend {
+      width: 280px;
+      height: 100vh;
+      overflow-y: auto;
+      background: #fff;
+      border-left: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #legend h3 {
+      margin-top: 0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      font-size: 12px;
+      pointer-events: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chart">
+  <svg width="900" height="900"></svg>
+</div>
+
+<div id="legend">
+  <h3>HC500 clusters</h3>
+  <div id="legend-items"></div>
+</div>
+
+<div class="tooltip"></div>
+
+<script>
+const width = 900;
+const height = 900;
+
+const svg = d3.select("svg")
+  .attr("viewBox", [0, 0, width, height]);
+
+const tooltip = d3.select(".tooltip");
+
+const pack = d3.pack()
+  .size([width, height])
+  .padding(3);
+
+d3.json("hc500_hc100_d3.json").then(data => {
+
+  const root = d3.hierarchy(data)
+    .sum(d => d.value)
+    .sort((a, b) => b.value - a.value);
+
+  pack(root);
+
+  const hc500Nodes = root.children;
+
+  const color = d3.scaleOrdinal()
+    .domain(hc500Nodes.map(d => d.data.name))
+    .range(d3.schemeTableau10.concat(d3.schemeSet3, d3.schemePaired));
+
+  // -----------------------
+  // Draw bubbles
+  // -----------------------
+  const node = svg.selectAll(".node")
+    .data(root.descendants().filter(d => d.depth > 0))
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+  const circles = node.append("circle")
+    .attr("r", d => d.r)
+    .attr("fill", d =>
+      d.depth === 1
+        ? color(d.data.name)
+        : color(d.parent.data.name)
+    )
+    .attr("fill-opacity", d => d.depth === 1 ? 0.35 : 0.85)
+    .attr("stroke", "#333");
+
+  // -----------------------
+  // Tooltip
+  // -----------------------
+  circles
+    .on("mouseover", (event, d) => {
+      const hc500 = d.depth === 1 ? d.data.name : d.parent.data.name;
+
+      tooltip
+        .style("opacity", 1)
+        .html(`
+          <strong>${d.data.name}</strong><br/>
+          HC500: ${hc500}<br/>
+          Count: ${d.value}
+        `);
+
+      // highlight all bubbles of this HC500
+      circles
+        .filter(c =>
+          (c.depth === 1 && c.data.name === hc500) ||
+          (c.depth === 2 && c.parent.data.name === hc500)
+        )
+        .attr("stroke-width", 3);
+    })
+    .on("mousemove", event => {
+      tooltip
+        .style("left", (event.pageX + 12) + "px")
+        .style("top", (event.pageY + 12) + "px");
+    })
+    .on("mouseout", () => {
+      tooltip.style("opacity", 0);
+      circles.attr("stroke-width", 1);
+    });
+
+  // -----------------------
+  // Scrollable legend (HC500)
+  // -----------------------
+  const legend = d3.select("#legend-items");
+
+  const legendItem = legend.selectAll(".legend-item")
+    .data(hc500Nodes)
+    .enter()
+    .append("div")
+    .attr("class", "legend-item")
+    .on("mouseover", (event, d) => {
+      circles
+        .filter(c =>
+          (c.depth === 1 && c.data.name === d.data.name) ||
+          (c.depth === 2 && c.parent.data.name === d.data.name)
+        )
+        .attr("stroke-width", 3);
+    })
+    .on("mouseout", () => {
+      circles.attr("stroke-width", 1);
+    });
+
+  legendItem.append("div")
+    .attr("class", "legend-color")
+    .style("background", d => color(d.data.name));
+
+  legendItem.append("div")
+    .html(d => `
+      ${d.data.name}<br/>
+      <span style="color:#555">(${d.value})</span>
+    `);
+});
+</script>
+
+</body>
+</html>
