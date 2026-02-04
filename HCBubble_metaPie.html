@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HC500 + Continent Composition</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background: #fafafa;
+    }
+
+    #chart {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h2 {
+      margin: 12px 0 6px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    /* Force-remove any strokes */
+    circle, path {
+      stroke: none !important;
+      stroke-width: 0 !important;
+    }
+
+    #legend {
+      width: 260px;
+      height: 100vh;
+      overflow-y: auto;
+      background: white;
+      border-left: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #legend h3 {
+      margin-top: 0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      font-size: 12px;
+      pointer-events: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chart">
+  <!-- 👇 Heading injected dynamically -->
+  <h2 id="plot-title"></h2>
+
+  <svg width="900" height="900"></svg>
+</div>
+
+<div id="legend">
+  <h3>Continent</h3>
+  <div id="legend-items"></div>
+</div>
+
+<div class="tooltip"></div>
+
+<script>
+const width = 900;
+const height = 900;
+
+const svg = d3.select("svg");
+const tooltip = d3.select(".tooltip");
+
+const pack = d3.pack()
+  .size([width, height])
+  .padding(5);
+
+d3.json("hc500_continent_d3.json").then(data => {
+
+  const root = d3.hierarchy(data)
+    .sum(d => d.value)
+    .sort((a, b) => b.value - a.value);
+
+  pack(root);
+
+  // 👇 Set heading with total strains
+  d3.select("#plot-title")
+  .text(`HC500 → Continent Composition (Strains with continent data: ${root.value.toLocaleString()})`);
+
+  const hc500Nodes = root.children;
+  const continentTotals = {};
+
+  hc500Nodes.forEach(hc500 => {
+    hc500.children.forEach(cont => {
+      continentTotals[cont.data.name] =
+        (continentTotals[cont.data.name] || 0) + cont.data.value;
+    });
+  });
+  // Collect unique continents
+  const continents = Array.from(
+    new Set(hc500Nodes.flatMap(d => d.children.map(c => c.data.name)))
+  );
+
+  const color = d3.scaleOrdinal()
+    .domain(continents)
+    .range(d3.schemeTableau10.concat(d3.schemeSet3, d3.schemePaired));
+
+  const pie = d3.pie()
+    .value(d => d.value)
+    .padAngle(0);
+
+  const arc = d3.arc();
+
+  const g = svg.selectAll("g")
+    .data(hc500Nodes)
+    .enter()
+    .append("g")
+    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+  // Continent pie inside HC500
+  g.each(function(d) {
+    const radius = d.r;
+    arc.innerRadius(0).outerRadius(radius);
+
+    const continentData = d.children.map(c => c.data);
+
+    d3.select(this)
+      .selectAll("path")
+      .data(pie(continentData))
+      .enter()
+      .append("path")
+      .attr("d", arc)
+      .attr("fill", p => color(p.data.name))
+      .on("mouseover", (event, p) => {
+        tooltip
+          .style("opacity", 1)
+          .html(`
+            <strong>${d.data.name}</strong><br/>
+            ${p.data.name}: ${p.data.value.toLocaleString()} strains
+          `);
+      })
+      .on("mousemove", event => {
+        tooltip
+          .style("left", (event.pageX + 12) + "px")
+          .style("top", (event.pageY + 12) + "px");
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+  });
+
+  // -----------------------
+  // Scrollable legend
+  // -----------------------
+  const legend = d3.select("#legend-items");
+
+  const legendItem = legend.selectAll(".legend-item")
+    .data(continents)
+    .enter()
+    .append("div")
+    .attr("class", "legend-item");
+
+  legendItem.append("div")
+    .attr("class", "legend-color")
+    .style("background", d => color(d));
+
+  legendItem.append("div")
+    .html(d => `
+        ${d}<br/>
+        <span style="color:#555">
+        ${continentTotals[d].toLocaleString()} strains
+        </span>
+    `);
+});
+</script>
+
+</body>
+</html>
