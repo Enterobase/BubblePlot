@@ -1,0 +1,1155 @@
+{
+  "name": "MTB",
+  "children": [
+    {
+      "name": "HC500_1",
+      "value": 98324,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 27845
+        },
+        {
+          "name": "Rifampicin",
+          "value": 24658
+        },
+        {
+          "name": "Ethambutol",
+          "value": 16431
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 12498
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 6637
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 6637
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 892
+        },
+        {
+          "name": "Linezolid",
+          "value": 307
+        },
+        {
+          "name": "Clofazimine",
+          "value": 776
+        },
+        {
+          "name": "Cycloserine",
+          "value": 455
+        },
+        {
+          "name": "Delamanid",
+          "value": 947
+        },
+        {
+          "name": "Amikacin",
+          "value": 3309
+        },
+        {
+          "name": "Streptomycin",
+          "value": 12368
+        },
+        {
+          "name": "Ethionamide",
+          "value": 11985
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 2432
+        },
+        {
+          "name": "Capreomycin",
+          "value": 3702
+        },
+        {
+          "name": "Kanamycin",
+          "value": 5907
+        }
+      ]
+    },
+    {
+      "name": "HC500_2",
+      "value": 64316,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 34511
+        },
+        {
+          "name": "Rifampicin",
+          "value": 32709
+        },
+        {
+          "name": "Ethambutol",
+          "value": 26586
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 17699
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 14437
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 14437
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 817
+        },
+        {
+          "name": "Linezolid",
+          "value": 486
+        },
+        {
+          "name": "Clofazimine",
+          "value": 585
+        },
+        {
+          "name": "Cycloserine",
+          "value": 425
+        },
+        {
+          "name": "Delamanid",
+          "value": 312
+        },
+        {
+          "name": "Amikacin",
+          "value": 7230
+        },
+        {
+          "name": "Streptomycin",
+          "value": 32775
+        },
+        {
+          "name": "Ethionamide",
+          "value": 13917
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 3007
+        },
+        {
+          "name": "Capreomycin",
+          "value": 6432
+        },
+        {
+          "name": "Kanamycin",
+          "value": 11376
+        }
+      ]
+    },
+    {
+      "name": "HC500_3",
+      "value": 16497,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 3615
+        },
+        {
+          "name": "Rifampicin",
+          "value": 3254
+        },
+        {
+          "name": "Ethambutol",
+          "value": 2278
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1067
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 1499
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 1499
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 180
+        },
+        {
+          "name": "Linezolid",
+          "value": 49
+        },
+        {
+          "name": "Clofazimine",
+          "value": 145
+        },
+        {
+          "name": "Cycloserine",
+          "value": 17
+        },
+        {
+          "name": "Delamanid",
+          "value": 31
+        },
+        {
+          "name": "Amikacin",
+          "value": 211
+        },
+        {
+          "name": "Streptomycin",
+          "value": 1749
+        },
+        {
+          "name": "Ethionamide",
+          "value": 707
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 86
+        },
+        {
+          "name": "Capreomycin",
+          "value": 203
+        },
+        {
+          "name": "Kanamycin",
+          "value": 231
+        }
+      ]
+    },
+    {
+      "name": "HC500_6",
+      "value": 2138,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 404
+        },
+        {
+          "name": "Rifampicin",
+          "value": 285
+        },
+        {
+          "name": "Ethambutol",
+          "value": 128
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 66
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 37
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 37
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 10
+        },
+        {
+          "name": "Clofazimine",
+          "value": 9
+        },
+        {
+          "name": "Cycloserine",
+          "value": 1
+        },
+        {
+          "name": "Delamanid",
+          "value": 57
+        },
+        {
+          "name": "Streptomycin",
+          "value": 97
+        },
+        {
+          "name": "Ethionamide",
+          "value": 133
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC500_13",
+      "value": 10906,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 5735
+        },
+        {
+          "name": "Rifampicin",
+          "value": 29
+        },
+        {
+          "name": "Ethambutol",
+          "value": 5
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 10906
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 25
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 25
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 10
+        },
+        {
+          "name": "Linezolid",
+          "value": 5
+        },
+        {
+          "name": "Clofazimine",
+          "value": 1
+        },
+        {
+          "name": "Cycloserine",
+          "value": 664
+        },
+        {
+          "name": "Delamanid",
+          "value": 3
+        },
+        {
+          "name": "Amikacin",
+          "value": 8
+        },
+        {
+          "name": "Streptomycin",
+          "value": 79
+        },
+        {
+          "name": "Ethionamide",
+          "value": 564
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 67
+        },
+        {
+          "name": "Capreomycin",
+          "value": 8
+        },
+        {
+          "name": "Kanamycin",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_36",
+      "value": 7147,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1383
+        },
+        {
+          "name": "Rifampicin",
+          "value": 797
+        },
+        {
+          "name": "Ethambutol",
+          "value": 413
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 285
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 157
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 157
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 29
+        },
+        {
+          "name": "Clofazimine",
+          "value": 18
+        },
+        {
+          "name": "Cycloserine",
+          "value": 6
+        },
+        {
+          "name": "Delamanid",
+          "value": 3
+        },
+        {
+          "name": "Amikacin",
+          "value": 41
+        },
+        {
+          "name": "Streptomycin",
+          "value": 541
+        },
+        {
+          "name": "Ethionamide",
+          "value": 604
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 22
+        },
+        {
+          "name": "Capreomycin",
+          "value": 39
+        },
+        {
+          "name": "Kanamycin",
+          "value": 49
+        }
+      ]
+    },
+    {
+      "name": "HC500_72",
+      "value": 419,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 101
+        },
+        {
+          "name": "Rifampicin",
+          "value": 100
+        },
+        {
+          "name": "Ethambutol",
+          "value": 69
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 58
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 6
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 6
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 3
+        },
+        {
+          "name": "Delamanid",
+          "value": 5
+        },
+        {
+          "name": "Streptomycin",
+          "value": 78
+        },
+        {
+          "name": "Ethionamide",
+          "value": 36
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 13
+        },
+        {
+          "name": "Capreomycin",
+          "value": 1
+        },
+        {
+          "name": "Kanamycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_111",
+      "value": 2,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 2
+        },
+        {
+          "name": "Rifampicin",
+          "value": 2
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC500_435",
+      "value": 5218,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1205
+        },
+        {
+          "name": "Rifampicin",
+          "value": 647
+        },
+        {
+          "name": "Ethambutol",
+          "value": 307
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 233
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 42
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 42
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 4
+        },
+        {
+          "name": "Clofazimine",
+          "value": 4
+        },
+        {
+          "name": "Cycloserine",
+          "value": 6
+        },
+        {
+          "name": "Amikacin",
+          "value": 18
+        },
+        {
+          "name": "Streptomycin",
+          "value": 410
+        },
+        {
+          "name": "Ethionamide",
+          "value": 734
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 4
+        },
+        {
+          "name": "Capreomycin",
+          "value": 18
+        },
+        {
+          "name": "Kanamycin",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "HC500_495",
+      "value": 242,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 2
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 3
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 3
+        },
+        {
+          "name": "Amikacin",
+          "value": 1
+        },
+        {
+          "name": "Ethionamide",
+          "value": 1
+        },
+        {
+          "name": "Capreomycin",
+          "value": 1
+        },
+        {
+          "name": "Kanamycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_536",
+      "value": 3096,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 980
+        },
+        {
+          "name": "Rifampicin",
+          "value": 793
+        },
+        {
+          "name": "Ethambutol",
+          "value": 611
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 390
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 217
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 217
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 56
+        },
+        {
+          "name": "Linezolid",
+          "value": 2
+        },
+        {
+          "name": "Clofazimine",
+          "value": 35
+        },
+        {
+          "name": "Cycloserine",
+          "value": 29
+        },
+        {
+          "name": "Delamanid",
+          "value": 1
+        },
+        {
+          "name": "Amikacin",
+          "value": 31
+        },
+        {
+          "name": "Streptomycin",
+          "value": 480
+        },
+        {
+          "name": "Ethionamide",
+          "value": 295
+        },
+        {
+          "name": "p-Aminosalicylic acid",
+          "value": 14
+        },
+        {
+          "name": "Capreomycin",
+          "value": 27
+        },
+        {
+          "name": "Kanamycin",
+          "value": 37
+        }
+      ]
+    },
+    {
+      "name": "HC500_1021",
+      "value": 1338,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 70
+        },
+        {
+          "name": "Rifampicin",
+          "value": 57
+        },
+        {
+          "name": "Ethambutol",
+          "value": 26
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 26
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 3
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 3
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 4
+        },
+        {
+          "name": "Clofazimine",
+          "value": 4
+        },
+        {
+          "name": "Amikacin",
+          "value": 1
+        },
+        {
+          "name": "Streptomycin",
+          "value": 53
+        },
+        {
+          "name": "Ethionamide",
+          "value": 30
+        },
+        {
+          "name": "Capreomycin",
+          "value": 1
+        },
+        {
+          "name": "Kanamycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_3514",
+      "value": 46,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_5439",
+      "value": 96,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 30
+        },
+        {
+          "name": "Rifampicin",
+          "value": 24
+        },
+        {
+          "name": "Ethambutol",
+          "value": 10
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 17
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 17
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 17
+        },
+        {
+          "name": "Bedaquiline",
+          "value": 2
+        },
+        {
+          "name": "Clofazimine",
+          "value": 1
+        },
+        {
+          "name": "Amikacin",
+          "value": 3
+        },
+        {
+          "name": "Streptomycin",
+          "value": 8
+        },
+        {
+          "name": "Ethionamide",
+          "value": 16
+        },
+        {
+          "name": "Capreomycin",
+          "value": 3
+        },
+        {
+          "name": "Kanamycin",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_6577",
+      "value": 3,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_7159",
+      "value": 5,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_8349",
+      "value": 54,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1
+        },
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Ethambutol",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        },
+        {
+          "name": "Ethionamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_9083",
+      "value": 6,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC500_10058",
+      "value": 3,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_13177",
+      "value": 24,
+      "children": [
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Ethambutol",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_68396",
+      "value": 2,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC500_72118",
+      "value": 1,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1
+        },
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Ethambutol",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_78058",
+      "value": 1,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1
+        },
+        {
+          "name": "Rifampicin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_78084",
+      "value": 3,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 3
+        },
+        {
+          "name": "Rifampicin",
+          "value": 3
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80619",
+      "value": 1,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80627",
+      "value": 1,
+      "children": [
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Ethambutol",
+          "value": 1
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 1
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80632",
+      "value": 1,
+      "children": [
+        {
+          "name": "Streptomycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80648",
+      "value": 1,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80649",
+      "value": 1,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80664",
+      "value": 1,
+      "children": [
+        {
+          "name": "Ethionamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80670",
+      "value": 1,
+      "children": [
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80678",
+      "value": 1,
+      "children": [
+        {
+          "name": "Streptomycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80680",
+      "value": 1,
+      "children": [
+        {
+          "name": "Streptomycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80735",
+      "value": 1,
+      "children": [
+        {
+          "name": "Isoniazid",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        },
+        {
+          "name": "Cycloserine",
+          "value": 1
+        },
+        {
+          "name": "Ethionamide",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_83084",
+      "value": 1,
+      "children": [
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Ethambutol",
+          "value": 1
+        },
+        {
+          "name": "Levofloxacin",
+          "value": 1
+        },
+        {
+          "name": "Moxifloxacin",
+          "value": 1
+        },
+        {
+          "name": "Amikacin",
+          "value": 1
+        },
+        {
+          "name": "Capreomycin",
+          "value": 1
+        },
+        {
+          "name": "Kanamycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_84094",
+      "value": 1,
+      "children": [
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Pyrazinamide",
+          "value": 1
+        },
+        {
+          "name": "Amikacin",
+          "value": 1
+        },
+        {
+          "name": "Capreomycin",
+          "value": 1
+        },
+        {
+          "name": "Kanamycin",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_91055",
+      "value": 1,
+      "children": [
+        {
+          "name": "Rifampicin",
+          "value": 1
+        },
+        {
+          "name": "Streptomycin",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
