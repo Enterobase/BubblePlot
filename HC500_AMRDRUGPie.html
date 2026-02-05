@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HC500 – Drug Resistance Composition</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background: #fafafa;
+    }
+
+    #chart {
+      flex: 1;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    circle, path {
+      stroke: none !important;
+    }
+
+    text {
+      text-anchor: middle;
+      fill: #222;
+      pointer-events: none;
+      font-size: 12px;
+    }
+
+    /* legend */
+    #legend {
+      width: 260px;
+      height: 100vh;
+      overflow-y: auto;
+      background: white;
+      border-left: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #legend h3 {
+      margin-top: 0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+      font-size: 12px;
+      pointer-events: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      opacity: 0;
+      max-width: 280px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chart">
+  <h2 id="plot-title" style="text-align:center"></h2>
+  <svg width="900" height="900"></svg>
+</div>
+
+<div id="legend">
+  <h3>Drug</h3>
+  <div id="legend-items"></div>
+</div>
+
+<div class="tooltip"></div>
+
+<script>
+const width = 900;
+const height = 900;
+
+/* drugs to highlight */
+const HIGHLIGHT_DRUGS = new Set([
+  "Bedaquiline",
+  "Rifampicin"
+]);
+
+/* explicit colors for highlighted drugs */
+const SPECIAL_COLORS = {
+  "Bedaquiline": "blue",
+  "Rifampicin": "red"
+};
+
+const svg = d3.select("svg");
+const tooltip = d3.select(".tooltip");
+
+const pack = d3.pack()
+  .size([width, height])
+  .padding(6);
+
+d3.json("hc500_drug_pie.json").then(data => {
+
+  /* ---------------- Hierarchy ---------------- */
+  const root = d3.hierarchy(data)
+    .sum(d => d.value)
+    .sort((a, b) => b.value - a.value);
+
+  pack(root);
+
+  const hc500Nodes = root.children;
+
+  /* ---------------- Title ---------------- */
+  const totalStrains = d3.sum(hc500Nodes, d => d.data.value);
+
+  d3.select("#plot-title")
+    .text(
+      `HC500 clusters with drug-level resistance composition ` +
+      `(Total strains: ${totalStrains.toLocaleString()})`
+    );
+
+  /* ---------------- Drugs ---------------- */
+  const drugs = Array.from(
+    new Set(
+      hc500Nodes.flatMap(d => d.children.map(c => c.data.name))
+    )
+  );
+
+  const color = d3.scaleOrdinal()
+    .domain(drugs)
+    .range(
+      d3.schemeTableau10
+        .concat(d3.schemeSet3)
+        .concat(d3.schemePaired)
+    );
+
+  /* ---------------- Compute total resistant strains per drug ---------------- */
+  const drugTotals = new Map();
+
+  hc500Nodes.forEach(hc => {
+    hc.children.forEach(c => {
+      const drug = c.data.name;
+      const value = c.data.value || 0;
+      drugTotals.set(drug, (drugTotals.get(drug) || 0) + value);
+    });
+  });
+
+  /* ---------------- Pie ---------------- */
+  const pie = d3.pie()
+    .value(d => d.value)
+    .padAngle(0);
+
+  const arc = d3.arc();
+
+  const g = svg.selectAll("g")
+    .data(hc500Nodes)
+    .enter()
+    .append("g")
+    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+  g.each(function(d) {
+    const radius = d.r;
+    arc.innerRadius(0).outerRadius(radius);
+
+    const drugData = d.children.map(c => c.data);
+
+    d3.select(this)
+      .selectAll("path")
+      .data(pie(drugData))
+      .enter()
+      .append("path")
+      .attr("d", arc)
+      .attr("fill", p =>
+        SPECIAL_COLORS[p.data.name] ?? color(p.data.name)
+      )
+      .attr("fill-opacity", p =>
+        HIGHLIGHT_DRUGS.has(p.data.name) ? 1 : 0.25
+      )
+      .on("mouseover", (event, p) => {
+        tooltip
+          .style("opacity", 1)
+          .html(`
+            <strong>${d.data.name}</strong><br/>
+            Drug: ${p.data.name}<br/>
+            Resistant strains: ${p.data.value}
+          `);
+      })
+      .on("mousemove", event => {
+        tooltip
+          .style("left", (event.pageX + 12) + "px")
+          .style("top", (event.pageY + 12) + "px");
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+  });
+
+  /* ---------------- Legend ---------------- */
+  const legend = d3.select("#legend-items");
+
+  const legendItem = legend.selectAll(".legend-item")
+    .data(drugs)
+    .enter()
+    .append("div")
+    .attr("class", "legend-item");
+
+  legendItem.append("div")
+    .attr("class", "legend-color")
+    .style("background", d =>
+      SPECIAL_COLORS[d] ?? color(d)
+    )
+    .style("opacity", d =>
+      HIGHLIGHT_DRUGS.has(d) ? 1 : 0.25
+    );
+
+  legendItem.append("div")
+    .html(d => `
+      <div>${d}</div>
+      <div style="color:#666; font-size:11px">
+        ${drugTotals.get(d).toLocaleString()} strains
+      </div>
+    `)
+    .style("opacity", d =>
+      HIGHLIGHT_DRUGS.has(d) ? 1 : 0.4
+    );
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HC200 – Drug Resistance</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      background: #fafafa;
+    }
+
+    #chart {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h2 {
+      margin: 12px 0 6px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    circle, path {
+      stroke: none !important;
+    }
+
+    text {
+      text-anchor: middle;
+      fill: #222;
+      pointer-events: none;
+      font-size: 11px;
+    }
+
+    #legend {
+      width: 280px;
+      height: 100vh;
+      overflow-y: auto;
+      background: #fff;
+      border-left: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #legend h3 {
+      margin-top: 0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: #999;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      font-size: 12px;
+      pointer-events: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chart">
+  <h2 id="plot-title"></h2>
+  <svg width="900" height="900"></svg>
+</div>
+
+<div id="legend">
+  <h3>HC200 clusters</h3>
+  <div id="legend-items"></div>
+</div>
+
+<div class="tooltip"></div>
+
+<script>
+const width = 900;
+const height = 900;
+const highlightDrug = "Bedaquiline";
+
+const svg = d3.select("svg")
+  .attr("viewBox", [0, 0, width, height]);
+
+const tooltip = d3.select(".tooltip");
+
+const pack = d3.pack()
+  .size([width, height])
+  .padding(4);
+
+d3.json("hc200_Bedaquiline.json").then(raw => {
+
+  /* ---- HC200 nodes as leaves ---- */
+  const root = d3.hierarchy({
+    name: "MTB",
+    children: raw.children.map(d => ({
+      name: d.name,
+      total: d.total,
+      drugs: d.children
+    }))
+  })
+  .sum(d => d.total)
+  .sort((a, b) => b.value - a.value);
+
+  pack(root);
+
+  const nodes = root.children;
+
+  /* ---- title ---- */
+  const totalStrains = d3.sum(nodes, d => d.data.total);
+
+  d3.select("#chart h2")
+  .text(`HC200 Drug Resistance Composition (Total strains: ${totalStrains.toLocaleString()})`);
+
+  /* ---- drug color scale ---- */
+  const drugs = Array.from(
+    new Set(nodes.flatMap(d => d.data.drugs.map(x => x.name)))
+  );
+
+  const color = d3.scaleOrdinal()
+    .domain(drugs)
+    .range(d3.schemeTableau10.concat(d3.schemeSet3, d3.schemePaired));
+
+  const pie = d3.pie()
+    .value(d => d.value)
+    .padAngle(0.004);
+
+  const arc = d3.arc();
+
+  /* ---- draw nodes ---- */
+  const node = svg.selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+  const BASE_OPACITY = 0.85;
+
+  node.each(function(d) {
+    const g = d3.select(this);
+    const radius = d.r;
+    arc.innerRadius(0).outerRadius(radius);
+
+    const drugData = d.data.drugs;
+    const hasResistance = drugData.some(x => x.value > 0);
+
+    if (!hasResistance) {
+      g.append("circle")
+        .attr("r", radius)
+        .attr("fill", "#e6e6e6")
+        .attr("fill-opacity", BASE_OPACITY);
+      return;
+    }
+
+    g.selectAll("path")
+      .data(pie(drugData))
+      .enter()
+      .append("path")
+      .attr("d", arc)
+      .attr("fill", p => color(p.data.name))
+      .attr("fill-opacity", p =>
+        p.data.name === highlightDrug ? 1 : 0.25
+      );
+  });
+
+  /* ---- hover behaviour (HC500-style dimming) ---- */
+  node
+    .on("mouseover", (event, d) => {
+      tooltip
+        .style("opacity", 1)
+        .html(`
+          <strong>${d.data.name}</strong><br/>
+          Total strains: ${d.data.total.toLocaleString()}
+        `);
+
+      svg.selectAll(".node path, .node circle")
+        .attr("fill-opacity", 0.15);
+
+      d3.select(event.currentTarget)
+        .selectAll("path, circle")
+        .attr("fill-opacity", BASE_OPACITY);
+    })
+    .on("mousemove", event => {
+      tooltip
+        .style("left", (event.pageX + 12) + "px")
+        .style("top", (event.pageY + 12) + "px");
+    })
+    .on("mouseout", () => {
+      tooltip.style("opacity", 0);
+      svg.selectAll(".node path")
+        .attr("fill-opacity", p =>
+          p && p.data && p.data.name === highlightDrug ? 1 : 0.25
+        );
+      svg.selectAll(".node circle")
+        .attr("fill-opacity", BASE_OPACITY);
+    });
+
+  /* ---- labels ---- */
+  // node.filter(d => d.r > 70)
+  //   .append("text")
+  //   .attr("dy", "0.35em")
+  //   .style("font-weight", "bold")
+  //   .text(d => d.data.name);
+
+  // /* ---- legend (HC200-style, HC500 look) ---- */
+  // const legend = d3.select("#legend-items");
+  //
+  // const legendItem = legend.selectAll(".legend-item")
+  //   .data(nodes)
+  //   .enter()
+  //   .append("div")
+  //   .attr("class", "legend-item")
+  //   .on("mouseover", (event, d) => {
+  //     svg.selectAll(".node path, .node circle")
+  //       .attr("fill-opacity", 0.15);
+  //
+  //     svg.selectAll(".node")
+  //       .filter(n => n.data.name === d.data.name)
+  //       .selectAll("path, circle")
+  //       .attr("fill-opacity", BASE_OPACITY);
+  //   })
+  //   .on("mouseout", () => {
+  //     svg.selectAll(".node path")
+  //       .attr("fill-opacity", p =>
+  //         p && p.data && p.data.name === highlightDrug ? 1 : 0.25
+  //       );
+  //     svg.selectAll(".node circle")
+  //       .attr("fill-opacity", BASE_OPACITY);
+  //   });
+  //
+  // // legendItem.append("div")
+  // //   .attr("class", "legend-color");
+  //
+  // legendItem.append("div")
+  //   .html(d => `
+  //     ${d.data.name}<br/>
+  //     <span style="color:#555">${d.data.total.toLocaleString()} strains</span>
+  //   `);
+    /* ---------- Legend ---------- */
+  const legend = d3.select("#legend-items");
+
+  const legendItem = legend.selectAll(".legend-item")
+    .data(drugs)
+    .enter()
+    .append("div")
+    .attr("class", "legend-item");
+
+  legendItem.append("div")
+    .attr("class", "legend-color")
+    .style("background", d => color(d));
+
+  legendItem.append("div")
+    .text(d => d);
+});
+</script>
+
+</body>
+</html>
