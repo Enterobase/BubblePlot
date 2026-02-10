@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+circle {
+  cursor: pointer;
+}
+
+circle.dim {
+  opacity: 0.12;
+}
+
+.tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #aaa;
+  padding: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+</style>
+
+<body>
+<svg width="900" height="900"></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const width = 900;
+const height = 900;
+
+const svg = d3.select("svg")
+  .attr("viewBox", `0 0 ${width} ${height}`);
+
+const tooltip = d3.select("body")
+  .append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0);
+
+// Color by depth (INLINE, no CSS conflicts)
+const levelColor = d => {
+  if (d.depth === 1) return "#c6dbef"; // HC530
+  if (d.depth === 2) return "#c7e9c0"; // HC220
+  if (d.depth === 3) return "#fdd0a2"; // HC70
+  return "none";
+};
+
+d3.json("hc530_hc220_hc70.json").then(data => {
+
+  const root = d3.pack()
+    .size([width, height])
+    .padding(4)(
+      d3.hierarchy(data)
+        .sum(d => d.value || 0)
+    );
+
+  // Precompute ancestor sets (PERFORMANCE FIX)
+  root.descendants().forEach(d => {
+    d._ancestorSet = new Set(d.ancestors());
+  });
+
+  const nodes = svg.append("g")
+    .selectAll("circle")
+    .data(root.descendants().filter(d => d.depth > 0))
+    .enter()
+    .append("circle")
+    .attr("transform", d => `translate(${d.x},${d.y})`)
+    .attr("r", d => d.r)
+    .attr("fill", d => levelColor(d))
+    .attr("stroke", d => d.data.L1 > 0 ? "#d32f2f" : "#666")
+    .attr("stroke-width", d => d.data.L1 > 0 ? 2.5 : 0.5)
+    // Disable pointer events for giant parents (UX FIX)
+    .style("pointer-events", d => d.depth === 1 && d.r > 300 ? "none" : "all")
+    .on("mouseenter", (event, d) => {
+
+      nodes.classed("dim", true);
+
+      nodes.filter(n =>
+        n === d || d._ancestorSet.has(n) || n._ancestorSet.has(d)
+      ).classed("dim", false);
+
+      tooltip
+        .style("opacity", 1)
+        .html(`
+          <strong>${d.data.name}</strong><br>
+          Level: ${d.depth === 1 ? "HC530" : d.depth === 2 ? "HC220" : "HC70"}<br>
+          Total strains: ${d.data.total || d.value}<br>
+          L1 strains: ${d.data.L1 || 0}
+        `)
+        .style("left", event.pageX + 12 + "px")
+        .style("top", event.pageY - 20 + "px");
+    })
+    .on("mouseleave", () => {
+      nodes.classed("dim", false);
+      tooltip.style("opacity", 0);
+    });
+  // --------------------
+// Legend
+// --------------------
+const legend = svg.append("g")
+  .attr("class", "legend")
+  .attr("transform", "translate(20,20)");
+
+const legendData = [
+  {label: "HC530", color: "#c6dbef"},
+  {label: "HC220", color: "#c7e9c0"},
+  {label: "HC70",  color: "#fdd0a2"},
+  {label: "Lineage", color: "none", stroke: "#d32f2f"}
+];
+
+legendData.forEach((d, i) => {
+  const g = legend.append("g")
+    .attr("transform", `translate(0, ${i * 22})`);
+
+  g.append("rect")
+    .attr("width", 18)
+    .attr("height", 18)
+    .attr("fill", d.color)
+    .attr("stroke", d.stroke || "#666")
+    .attr("stroke-width", d.stroke ? 2.5 : 0.5);
+
+  g.append("text")
+    .attr("x", 26)
+    .attr("y", 9)
+    .text(d.label);
+});
+
+});
+</script>
+</body>
