@@ -1,0 +1,2273 @@
+{
+  "name": "MTB",
+  "children": [
+    {
+      "name": "HC500_1",
+      "total": 98324,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 304
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 33933
+        },
+        {
+          "name": "No resistance",
+          "value": 64087
+        }
+      ]
+    },
+    {
+      "name": "HC500_2",
+      "total": 64316,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 133
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 40035
+        },
+        {
+          "name": "No resistance",
+          "value": 24148
+        }
+      ]
+    },
+    {
+      "name": "HC500_3",
+      "total": 16497,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 73
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 4868
+        },
+        {
+          "name": "No resistance",
+          "value": 11556
+        }
+      ]
+    },
+    {
+      "name": "HC500_6",
+      "total": 2138,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 5
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 544
+        },
+        {
+          "name": "No resistance",
+          "value": 1589
+        }
+      ]
+    },
+    {
+      "name": "HC500_13",
+      "total": 10906,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 9
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 10897
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_36",
+      "total": 7147,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 20
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1793
+        },
+        {
+          "name": "No resistance",
+          "value": 5334
+        }
+      ]
+    },
+    {
+      "name": "HC500_72",
+      "total": 419,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 1
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 142
+        },
+        {
+          "name": "No resistance",
+          "value": 276
+        }
+      ]
+    },
+    {
+      "name": "HC500_111",
+      "total": 2,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 2
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_435",
+      "total": 5218,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 1
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1499
+        },
+        {
+          "name": "No resistance",
+          "value": 3718
+        }
+      ]
+    },
+    {
+      "name": "HC500_495",
+      "total": 242,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 7
+        },
+        {
+          "name": "No resistance",
+          "value": 235
+        }
+      ]
+    },
+    {
+      "name": "HC500_536",
+      "total": 3096,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 9
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1132
+        },
+        {
+          "name": "No resistance",
+          "value": 1955
+        }
+      ]
+    },
+    {
+      "name": "HC500_1021",
+      "total": 1338,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 4
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 118
+        },
+        {
+          "name": "No resistance",
+          "value": 1216
+        }
+      ]
+    },
+    {
+      "name": "HC500_1478",
+      "total": 311,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 311
+        }
+      ]
+    },
+    {
+      "name": "HC500_2137",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_3514",
+      "total": 46,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "HC500_3616",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_3691",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_3749",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_3762",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_3768",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_3840",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_4017",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_5085",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_5132",
+      "total": 6,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC500_5141",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_5175",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_5255",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_5304",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_5326",
+      "total": 10,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "HC500_5393",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_5418",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_5439",
+      "total": 96,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 1
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 41
+        },
+        {
+          "name": "No resistance",
+          "value": 54
+        }
+      ]
+    },
+    {
+      "name": "HC500_5447",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_5535",
+      "total": 9,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "HC500_5549",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_5571",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_5650",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_6577",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 3
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_6930",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_7159",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 5
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_7705",
+      "total": 6,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC500_7859",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_8145",
+      "total": 2,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC500_8343",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_8349",
+      "total": 54,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 2
+        },
+        {
+          "name": "No resistance",
+          "value": 52
+        }
+      ]
+    },
+    {
+      "name": "HC500_8387",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_8483",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_8561",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_8566",
+      "total": 10,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "HC500_8571",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_8635",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_8650",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_8651",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_8652",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_8970",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_9007",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_9011",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_9044",
+      "total": 8,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC500_9083",
+      "total": 6,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 6
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_9465",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_10058",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 3
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_11737",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_11930",
+      "total": 11,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "name": "HC500_13177",
+      "total": 24,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "name": "HC500_13197",
+      "total": 11,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "name": "HC500_13386",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_25747",
+      "total": 24,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "name": "HC500_33477",
+      "total": 15,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "HC500_48432",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_64327",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_68347",
+      "total": 5,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC500_68351",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC500_68353",
+      "total": 6,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC500_68354",
+      "total": 7,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC500_68394",
+      "total": 4,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC500_68396",
+      "total": 2,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 2
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_72118",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_78058",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_78084",
+      "total": 3,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 3
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_79207",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_79801",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_79803",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_79810",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80601",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80613",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80615",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80616",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80619",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80620",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80626",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80627",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80632",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80638",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80646",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80648",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80649",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80655",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80660",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80662",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80664",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80665",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80668",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80669",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80670",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80675",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80678",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80680",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80682",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80683",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80684",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80686",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_80735",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_80738",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_81358",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_81362",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_81376",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_81424",
+      "total": 2,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC500_82924",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_83084",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_84094",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_86873",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_91055",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC500_93519",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_99083",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC500_110016",
+      "total": 2,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC500_128562",
+      "total": 1,
+      "children": [
+        {
+          "name": "Bedaquiline-resistant",
+          "value": 0
+        },
+        {
+          "name": "Other drug resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
