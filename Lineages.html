@@ -70,8 +70,7 @@ d3.json("hc530_hc220_hc70.json").then(data => {
     .attr("transform", d => `translate(${d.x},${d.y})`)
     .attr("r", d => d.r)
     .attr("fill", d => levelColor(d))
-    .attr("stroke", d => d.data.L1 > 0 ? "#d32f2f" : "#666")
-    .attr("stroke-width", d => d.data.L1 > 0 ? 2.5 : 0.5)
+    .attr("stroke", "none")
     // Disable pointer events for giant parents (UX FIX)
     .style("pointer-events", d => d.depth === 1 && d.r > 300 ? "none" : "all")
     .on("mouseenter", (event, d) => {
@@ -107,8 +106,7 @@ const legend = svg.append("g")
 const legendData = [
   {label: "HC530", color: "#c6dbef"},
   {label: "HC220", color: "#c7e9c0"},
-  {label: "HC70",  color: "#fdd0a2"},
-  {label: "Lineage", color: "none", stroke: "#d32f2f"}
+  {label: "HC70",  color: "#fdd0a2"}
 ];
 
 legendData.forEach((d, i) => {
