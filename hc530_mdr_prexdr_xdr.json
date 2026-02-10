@@ -1,0 +1,3047 @@
+{
+  "name": "MTB",
+  "children": [
+    {
+      "name": "HC530_1",
+      "total": 98328,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 371
+        },
+        {
+          "name": "pre-XDR",
+          "value": 5347
+        },
+        {
+          "name": "MDR",
+          "value": 16279
+        },
+        {
+          "name": "Other resistance",
+          "value": 12242
+        },
+        {
+          "name": "No resistance",
+          "value": 64089
+        }
+      ]
+    },
+    {
+      "name": "HC530_2",
+      "total": 64340,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 914
+        },
+        {
+          "name": "pre-XDR",
+          "value": 12407
+        },
+        {
+          "name": "MDR",
+          "value": 17195
+        },
+        {
+          "name": "Other resistance",
+          "value": 9674
+        },
+        {
+          "name": "No resistance",
+          "value": 24150
+        }
+      ]
+    },
+    {
+      "name": "HC530_12",
+      "total": 35,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "name": "HC530_13",
+      "total": 16501,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 103
+        },
+        {
+          "name": "pre-XDR",
+          "value": 930
+        },
+        {
+          "name": "MDR",
+          "value": 1639
+        },
+        {
+          "name": "Other resistance",
+          "value": 2272
+        },
+        {
+          "name": "No resistance",
+          "value": 11557
+        }
+      ]
+    },
+    {
+      "name": "HC530_16",
+      "total": 54,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 1
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 52
+        }
+      ]
+    },
+    {
+      "name": "HC530_39",
+      "total": 4287,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 2
+        },
+        {
+          "name": "pre-XDR",
+          "value": 81
+        },
+        {
+          "name": "MDR",
+          "value": 469
+        },
+        {
+          "name": "Other resistance",
+          "value": 583
+        },
+        {
+          "name": "No resistance",
+          "value": 3152
+        }
+      ]
+    },
+    {
+      "name": "HC530_40",
+      "total": 5002,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 32
+        },
+        {
+          "name": "MDR",
+          "value": 347
+        },
+        {
+          "name": "Other resistance",
+          "value": 849
+        },
+        {
+          "name": "No resistance",
+          "value": 3774
+        }
+      ]
+    },
+    {
+      "name": "HC530_53",
+      "total": 1338,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 1
+        },
+        {
+          "name": "MDR",
+          "value": 39
+        },
+        {
+          "name": "Other resistance",
+          "value": 82
+        },
+        {
+          "name": "No resistance",
+          "value": 1216
+        }
+      ]
+    },
+    {
+      "name": "HC530_61",
+      "total": 5218,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 32
+        },
+        {
+          "name": "MDR",
+          "value": 530
+        },
+        {
+          "name": "Other resistance",
+          "value": 938
+        },
+        {
+          "name": "No resistance",
+          "value": 3718
+        }
+      ]
+    },
+    {
+      "name": "HC530_73",
+      "total": 421,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 2
+        },
+        {
+          "name": "MDR",
+          "value": 85
+        },
+        {
+          "name": "Other resistance",
+          "value": 58
+        },
+        {
+          "name": "No resistance",
+          "value": 276
+        }
+      ]
+    },
+    {
+      "name": "HC530_129",
+      "total": 3193,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 40
+        },
+        {
+          "name": "pre-XDR",
+          "value": 163
+        },
+        {
+          "name": "MDR",
+          "value": 523
+        },
+        {
+          "name": "Other resistance",
+          "value": 457
+        },
+        {
+          "name": "No resistance",
+          "value": 2010
+        }
+      ]
+    },
+    {
+      "name": "HC530_486",
+      "total": 11,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "name": "HC530_488",
+      "total": 10906,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 4
+        },
+        {
+          "name": "pre-XDR",
+          "value": 2
+        },
+        {
+          "name": "MDR",
+          "value": 15
+        },
+        {
+          "name": "Other resistance",
+          "value": 10885
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_3164",
+      "total": 46,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "HC530_4025",
+      "total": 24,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "name": "HC530_4272",
+      "total": 242,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 7
+        },
+        {
+          "name": "No resistance",
+          "value": 235
+        }
+      ]
+    },
+    {
+      "name": "HC530_4391",
+      "total": 311,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 311
+        }
+      ]
+    },
+    {
+      "name": "HC530_4415",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 3
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_4429",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_7676",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_8171",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10841",
+      "total": 6,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC530_10858",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10868",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10869",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10889",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 1
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10891",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10894",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10935",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10938",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10939",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10943",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10946",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10949",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10951",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10952",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10953",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10956",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10957",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10964",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10966",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10972",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10974",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10982",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10992",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_10993",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_10999",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11000",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_11001",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11003",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11005",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11006",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11074",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 1
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_11788",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11795",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_11797",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_12279",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_13078",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 1
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_13455",
+      "total": 15,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "HC530_30491",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_41387",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC530_58653",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58654",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58655",
+      "total": 6,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC530_58656",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58657",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58658",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58659",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58660",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58661",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58663",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58665",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC530_58666",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58668",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58669",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58670",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58671",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58674",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 5
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_58815",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58817",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58819",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC530_58821",
+      "total": 10,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "HC530_58823",
+      "total": 6,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 6
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_58828",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58829",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58830",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58831",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58833",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_58835",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58836",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58838",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 3
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_58841",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58843",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58844",
+      "total": 7,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "HC530_58847",
+      "total": 6,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC530_58849",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58855",
+      "total": 9,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "HC530_58857",
+      "total": 10,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "HC530_58860",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58861",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58868",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_58870",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_58871",
+      "total": 2,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC530_58872",
+      "total": 8,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "HC530_58874",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC530_58876",
+      "total": 6,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "HC530_61300",
+      "total": 4,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "HC530_61302",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "HC530_61305",
+      "total": 2,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 2
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_61314",
+      "total": 5,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "HC530_61316",
+      "total": 3,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 3
+        },
+        {
+          "name": "No resistance",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "HC530_77526",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_88381",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_94988",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_100545",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "HC530_111601",
+      "total": 2,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "HC530_137642",
+      "total": 1,
+      "children": [
+        {
+          "name": "XDR",
+          "value": 0
+        },
+        {
+          "name": "pre-XDR",
+          "value": 0
+        },
+        {
+          "name": "MDR",
+          "value": 0
+        },
+        {
+          "name": "Other resistance",
+          "value": 0
+        },
+        {
+          "name": "No resistance",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
